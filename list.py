@@ -25,6 +25,21 @@ fruits.extend(tropical)
 
 print(fruits)
 
+def reverseName(name):
+    strs=''
+    lists=list(name)
+    lists.reverse()
+    newName=strs.join(lists)
+    print(newName)
+
+
+
+
+reverseName("Henry Joi")
+
+vowels=['i','a','o','e','u']
+vowels.sort()
+print(vowels)
 
 
 
